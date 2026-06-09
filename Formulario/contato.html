@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <!-- 
+        Crie contato.html e contato.css
+
+        Crie um <form> com method="POST"
+
+        Adicione campos: Nome (text), Email (email), Assunto (select) e Mensagem (textarea)
+
+        Use <label> para cada campo com o atributo for
+
+        Adicione required nos campos obrigatórios
+
+        No CSS, use Flexbox (flex-direction: column) para organizar os campos
+
+        Estilize os inputs com padding, border-radius e uma borda suave
+
+        Crie um botão de submit estilizado com cor de fundo e hover
+    --> 
+        
+
+
+    <div class="caixa_formulario">
+
+        <form method="post" class="meu_formulario">
+            <label for="Nome">Nome do Usuario:</label>
+            <input class="input_estilo" type="text" id="Nome" name="nome_usuario" required>
+            
+            <label for="email">Email:</label>
+            <input class="input_estilo" type="text" id="email" name="email" required>
+
+            <label for="fruta">Selecione uma Fruta:</label>
+            <select class="input_estilo" name="fruta" id="fruta">
+                <option value="">Selecione uma opção...</option> 
+                <option value="banana">Banana</option>
+                <option value="maca">Maçã</option>
+                <option value="laranja">Laranja</option>
+                <option value="limao">Limão</option>
+                <option value="uva">Uva</option>
+                <option value="maracuja">Maracuja</option>
+                <option value="melancia">Melancia</option>
+            </select>
+
+            <label for="comentario">Escreva um Comentario</label>
+            <textarea class="input_estilo" name="comentario" id="comentario" rows="4" required></textarea>
+
+            <button class="botao">Concluir</button>
+
+        </form>
+
+    </div>
+
+
+</body>
+</html>
