@@ -7,6 +7,16 @@
 .input_estilo{
     padding: auto;
     border: 1px solid #4e4e4e;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.input_estilo:hover{
+    background-color: rgb(221, 220, 220);
+}
+
+.select_estilo{
+    cursor: pointer;
 }
 
 .caixa_formulario{
